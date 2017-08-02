@@ -27,6 +27,8 @@ function Executor(opts) {
 	// for exception handling
 	this.idleSince = null;
 	//bob change;
+		//bob change;
+
 	this.maxIdleTime = opts.maxIdleTime;
 	this.crawler = opts.crawler;
 	this.exceptionalIdlenessHandler = opts.exceptionalIdlenessHandler;
