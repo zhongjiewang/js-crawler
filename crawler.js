@@ -11,8 +11,8 @@ var DEFAULT_MAX_IDLE_TIME = 120 * 1000;
 var DEFAULT_USERAGENT = 'crawler/js-crawler';
 
 //
-//mytest
-//22222
+
+//1111111111111111111111111
 /*
  * Executor that handles throttling and task processing rate.
  */
