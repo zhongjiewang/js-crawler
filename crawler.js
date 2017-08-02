@@ -26,6 +26,7 @@ function Executor(opts) {
 	this.timeoutMs = (1 / this.maxRatePerSecond) * 1000;
 	// for exception handling
 	this.idleSince = null;
+	//bob change;
 	this.maxIdleTime = opts.maxIdleTime;
 	this.crawler = opts.crawler;
 	this.exceptionalIdlenessHandler = opts.exceptionalIdlenessHandler;
