@@ -10,6 +10,10 @@ var DEFAULT_REQUEST_TIMEOUT = 30 * 1000;
 var DEFAULT_MAX_IDLE_TIME = 120 * 1000;
 var DEFAULT_USERAGENT = 'crawler/js-crawler';
 
+//
+
+//1111111111111111111111111
+//mydevmydev
 /*
  * Executor that handles throttling and task processing rate.
  */
@@ -23,6 +27,9 @@ function Executor(opts) {
 	this.timeoutMs = (1 / this.maxRatePerSecond) * 1000;
 	// for exception handling
 	this.idleSince = null;
+	//bob change;
+		//bob change;
+
 	this.maxIdleTime = opts.maxIdleTime;
 	this.crawler = opts.crawler;
 	this.exceptionalIdlenessHandler = opts.exceptionalIdlenessHandler;
